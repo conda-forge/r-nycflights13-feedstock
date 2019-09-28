@@ -7,7 +7,7 @@ Package license: CC0
 
 Feedstock license: BSD 3-Clause
 
-Summary: Airline on-time data for all flights departing NYC in 2013. Also includes useful 'metadata' on airlines, airports, weather, and planes.
+Summary: Airline on-time data for all flights departing NYC in 2013.  Also includes useful 'metadata' on airlines, airports, weather, and planes.
 
 
 
@@ -116,7 +116,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@bgruening](https://github.com/bgruening/)
 * [@conda-forge/r](https://github.com/conda-forge/r/)
-* [@johanneskoester](https://github.com/johanneskoester/)
 
