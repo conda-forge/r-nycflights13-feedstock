@@ -1,4 +1,4 @@
-{% set version = '1.0.1' %}
+{% set version = "1.0.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -13,8 +13,8 @@ source:
   sha256: d201e8ddb9ea82f32a938da9c0d2f7500258851a9372b1ca95fbe282c9fb9240
 
 build:
-  merge_build_host: True  # [win]
-  number: 0
+  merge_build_host: true  # [win]
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -22,7 +22,7 @@ build:
 
 requirements:
   build:
-    - {{posix}}zip               # [win]
+    - {{ posix }}zip               # [win]
   host:
     - r-base
     - r-tibble
@@ -37,9 +37,8 @@ test:
 
 about:
   home: http://github.com/hadley/nycflights13
-  license: CC0
-  summary: Airline on-time data for all flights departing NYC in 2013.  Also includes useful
-    'metadata' on airlines, airports, weather, and planes.
+  license: CC0-1.0
+  summary: Airline on-time data for all flights departing NYC in 2013.  Also includes useful 'metadata' on airlines, airports, weather, and planes.
   license_family: CC
 
 extra:
