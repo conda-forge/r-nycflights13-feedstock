@@ -1,11 +1,11 @@
-About r-nycflights13
-====================
+About r-nycflights13-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-nycflights13-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/hadley/nycflights13
 
 Package license: CC0-1.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-nycflights13-feedstock/blob/main/LICENSE.txt)
 
 Summary: Airline on-time data for all flights departing NYC in 2013.  Also includes useful 'metadata' on airlines, airports, weather, and planes.
 
